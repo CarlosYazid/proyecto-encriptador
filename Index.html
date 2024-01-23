@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!--<meta http-equiv="refresh" content="0; url=">-->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" href="/resourses/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+    <body>
+        <main>
+            <div class="intro_area">
+                <header>
+                    <div class="logo">
+                        <a href="index.html"><img src="resourses/alura.svg" alt="logo"></a>
+                    </div>
+                </header>
+
+                <article>
+                
+                    <div class="sandbox">
+                        <textarea type="text" name="maintext" id="sandbox" placeholder="Ingrese el texto Aquí" maxlength="400"></textarea>
+                    </div>
+                    <span class="alert">
+                        <img src="/resourses/!.svg" alt="signo de exclamación">
+                        <p>Solo letras minusculas y sin acentos</p>
+                    </span>
+                    <div class="buttons">
+                        <button type="button" id="encrypter">Encriptar</button>
+                        <button id="decrypted" disabled>Desencriptar</button>
+                    </div>
+
+                </article>
+            </div>
+                
+
+            <aside class="response_area">
+                <div class="response">
+                    <div class="background">
+                        <img src="" alt="">
+                    </div>
+                    <div class="responsetext">
+                        <h4 id="subtitle_response"></h4>
+                        <p id="text_response"></p>
+                    </div>
+                    <div class="button_response" style="display: none;">
+                        <button type="button" id="copy_" disabled>Copiar</button>
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <span class="info">
+
+                <p>Desarrollado por <a href="#">@CarlosPadilla</a></p>
+                <ul>
+                    <li><a href=""><img src="/resourses/github.svg" alt="Logo de Github" id="github_logo"></a></li>
+                    <li><a href=""><img src="/resourses/linkedin.svg" alt="Logo de Linkedin" id="linkedin_logo"></a></li>
+                    <li><a href=""><img src="" alt=""></a></li>
+                </ul>
+            </span>
+        </footer>
+        <script src="App.js"></script>
+    </body>
+</html>
