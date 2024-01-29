@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="shortcut icon" href="/resourses/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="Styles2.css">
 </head>
     <body>
         <main>
@@ -24,14 +25,14 @@
                 <article>
                 
                     <div class="sandbox">
-                        <textarea type="text" name="maintext" id="sandbox" placeholder="Ingrese el texto Aquí" maxlength="400"></textarea>
+                        <textarea type="text" name="maintext" id="sandbox" placeholder="Ingrese el texto Aquí"></textarea>
                     </div>
                     <span class="alert">
                         <img src="/resourses/!.svg" alt="signo de exclamación">
                         <p>Solo letras minusculas y sin acentos</p>
                     </span>
                     <div class="buttons">
-                        <button type="button" id="encrypter">Encriptar</button>
+                        <button type="button" id="encrypter" onclick="run()">Encriptar</button>
                         <button id="decrypted" disabled>Desencriptar</button>
                     </div>
 

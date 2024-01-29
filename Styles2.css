@@ -1,0 +1,430 @@
+
+@media (max-width: 361px){
+    body footer { 
+        height: 6%;
+    }
+}
+/*
+@media (max-width: 376px) {
+
+    body {
+
+        main {
+
+            height: 90%;
+
+            .intro_area {
+                height: 62.5%;
+            }
+
+            aside {
+                height: 30%;
+            }
+        }
+
+        footer {
+            height: 6%;
+        }
+    }
+
+}
+
+@media (max-width: 415px) {
+
+    body {
+
+        main {
+
+            .intro_area {
+
+                article {
+                    .alert {
+
+                        gap: 2%; 
+                
+                        p { 
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+
+             aside {
+                height: 30%;
+            }
+        }
+
+    }
+}
+*/
+@media (max-width: 427px) and (min-width: 415) {
+    
+    body{
+        main{
+            .intro_area {
+    
+                article {
+        
+                    .alert {
+                        gap: 1%;
+
+                        p {
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+
+            aside {
+                height: 27.5%;
+            }
+        }
+    }
+}
+
+@media (max-width: 769px) and (min-width: 427px) {
+
+    body {
+
+        main {
+            width: 90%;
+
+            .intro_area {
+
+
+                article {
+                    .sandbox {
+                        width: 90%;
+                    }
+
+                    .alert {
+                        p {
+                            width: 50%;
+                        }   
+                    }
+                    .buttons {
+                        flex-direction: row;
+                        gap: 0 10%;
+                        button {
+                            width: 40%;
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    body {
+
+        height: 920px;
+
+        main {
+
+            width: 100%;
+            height: 90%;
+
+            flex-direction: row;
+
+            .intro_area {
+                width: 60%;
+                height: 96%;
+                padding: 2%;
+
+                justify-content: start;
+                align-items: center;
+
+                header {
+
+                    width: 90%;
+                    padding: 0;
+
+                    justify-content: start;
+
+                }
+
+                article {
+
+                    width: 95%;
+                    height: 85%;
+                    padding: 0;
+                    margin: 0;
+                    
+                    justify-content: space-evenly;
+                    gap: 1% 0;
+
+                    .sandbox{
+
+                        height: 60%;
+                    }
+
+                    .alert {
+
+                        width: 70%;
+                        height: 5%;
+
+                        justify-content: start;
+                        gap: 0;
+
+                    }
+
+                    .buttons {
+                        width: 90%;
+                        height: 7.5%;
+
+                        flex-direction: row;
+                        justify-content: space-evenly;
+
+                        button {
+                            width: 30%;
+                            height: 100%;
+                        }
+                    }
+
+                }
+            }
+
+            aside {
+                width: 35%;
+                height: 96%;
+            }
+        }
+
+        footer {
+
+            .info {
+                ul {
+
+                    width: 50%;
+                }
+            }
+            
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+
+        height: 920px;
+
+        main {
+
+            width: 100%;
+            height: 90%;
+
+            flex-direction: row;
+
+            .intro_area {
+                width: 60%;
+                height: 96%;
+                padding: 2%;
+
+                justify-content: start;
+                align-items: center;
+
+                header {
+
+                    width: 90%;
+                    padding: 0;
+
+                    justify-content: start;
+
+                }
+
+                article {
+
+                    width: 95%;
+                    height: 85%;
+                    padding: 0;
+                    margin: 0;
+                    
+                    justify-content: space-evenly;
+                    gap: 1% 0;
+
+                    .sandbox{
+
+                        height: 60%;
+                    }
+
+                    .alert {
+
+                        width: 70%;
+                        height: 5%;
+
+                        justify-content: start;
+                        gap: 0;
+
+                    }
+
+                    .buttons {
+                        width: 90%;
+                        height: 7.5%;
+
+                        flex-direction: row;
+                        justify-content: space-evenly;
+
+                        button {
+                            width: 30%;
+                            height: 100%;
+                            padding: 2%;
+                        }
+                    }
+
+                }
+            }
+
+            aside {
+                width: 35%;
+                height: 96%;
+            }
+        }
+
+        footer {
+
+            .info {
+                ul {
+
+                    width: 35%;
+                }
+            }
+            
+        }
+    }
+}
+/*
+@media screen and (max-width: 375px) and (min-width: 361px) {
+    body footer .info  ul {
+        width: 75%;
+    }
+}
+
+
+@media screen and (max-width: 411px) and (min-width:  376px) {
+    body main .intro_area article .alert {
+        width: 78%;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 412px) {
+    
+    body {
+
+        main {
+            width: 90%;
+            height: 90%;
+
+            .intro_area {
+
+                height: 60%;
+                justify-content: space-evenly;
+
+                article {
+                    width: 85%;
+
+                    .sandbox{
+                        height: 40%;
+                    }
+
+                    .alert {
+                        width: 80%;
+                        height: 10%;
+                    }
+                    
+                    .buttons {
+                        width: 80%;
+                        height: 25%;
+
+                        button {
+                            padding: 1.5%;
+                        }
+                    }
+                }
+            }
+
+            aside {
+                height: 32%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 530px){
+
+    body {
+    
+        main {
+
+            .intro_area {
+
+                height: 60%;
+
+                article {
+
+                    .alert{
+                        width: 80%;
+                    }
+                }
+            }
+
+            aside {
+                height: 32%;
+            }
+        }
+
+        footer .info ul {
+            width: 65%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 590px){
+    body {
+        main{ 
+            .intro_area{
+
+                article {
+                    
+                    .sandbox {
+                         width: 85%;
+                    }
+
+                    .alert {
+                         width: 75%;
+                    }
+
+                    .buttons {
+                         width: 75%;
+                    }
+                }
+
+                aside {
+                    height: 32.5%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 566px) {
+    body {
+        main {
+
+            justify-content: center;
+            align-items: center;
+
+            aside {
+                height: 32.5%;
+            }
+        }
+    }
+}
+
+*/
