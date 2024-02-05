@@ -32,8 +32,8 @@
                         <p>Solo letras minusculas y sin acentos</p>
                     </span>
                     <div class="buttons">
-                        <button type="button" id="encrypter" onclick="run()">Encriptar</button>
-                        <button id="decrypted" disabled>Desencriptar</button>
+                        <button type="button" id="encrypter" onclick="encriptar(true)">Encriptar</button>
+                        <button id="decrypted" onclick="encriptar(false)">Desencriptar</button>
                     </div>
 
                 </article>
@@ -43,7 +43,7 @@
             <aside class="response_area">
                 <div class="response">
                     <div class="background">
-                        <img src="" alt="">
+                        <img src="resourses/muneco.svg" alt="">
                     </div>
                     <div class="responsetext">
                         <h4 id="subtitle_response"></h4>

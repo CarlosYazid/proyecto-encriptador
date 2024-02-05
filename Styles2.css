@@ -60,6 +60,14 @@
                     }
                 }
             }
+
+            .response_area {
+                .response {
+                    .button_response {
+                        width: 80%;
+                    }
+                }
+            }
         }
 
         footer {
@@ -68,7 +76,7 @@
     }
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media (max-width: 1024px) and (min-width: 770px) {
     body {
 
         height: 920px;
@@ -141,6 +149,36 @@
             aside {
                 width: 35%;
                 height: 96%;
+
+                
+
+                .response {
+
+                    height: 60%;
+
+                    justify-content: space-evenly;
+                    
+                    .background { 
+                        width: 90%;
+                        height: 50%;
+                        display: block;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+                    .responsetext {
+                        height: 20%;
+                        justify-content: space-around;
+                        padding: 0 2%;
+                    }
+
+                    .button_response {
+                        height: 10%;
+                    }
+                }
             }
         }
 
@@ -231,6 +269,34 @@
             aside {
                 width: 35%;
                 height: 96%;
+
+                .response {
+
+                    height: 60%;
+
+                    justify-content: space-evenly;
+                    
+                    .background { 
+                        width: 90%;
+                        height: 50%;
+                        display: block;
+    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+    
+                    .responsetext {
+                        height: 20%;
+                        justify-content: space-around;
+                        padding: 0 2%;
+                    }
+
+                    .button_response {
+                        height: 10%;
+                    }
+                }
             }
         }
 
